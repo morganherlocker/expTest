@@ -30,7 +30,7 @@ app.get('/', routes.index);
 app.get('/home', routes.home);
 app.get('/login', routes.login);
 app.get('/info', routes.info);
-//app.get('/json', routes.json);
+app.get('/json', routes.json);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));

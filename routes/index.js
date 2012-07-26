@@ -18,9 +18,12 @@ exports.login = function(req, res){
 };
 
 exports.info = function(req, res){
-  res.render('info', { title: 'INFOpage' , OS Type: os.type()});
+  res.render('info', { title: 'INFOpage' , OSType: os.type()});
 };
 
-//exports.json = function(req, res){
-//  res.render('json', null);
-//};
+exports.json = function(req, res){
+	res.writeHead(200, { 'Content-Type': 'application/json' });
+	var jsonObject = ['this', 'is', 'a', 'test']
+	res.write(JSON.stringify(jsonObject))
+	res.end()
+};
