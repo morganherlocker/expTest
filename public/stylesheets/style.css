@@ -1,0 +1,19 @@
+html {
+	background: gray
+}
+
+body {
+  padding: 50px;
+	margin: 100px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background: white;
+	color: gray
+}
+
+p{
+	color: black
+}
+
+a {
+  color: #00B7FF;
+}

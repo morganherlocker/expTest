@@ -1,0 +1,41 @@
+extends layout
+
+
+block content
+	h1 test header 1
+	h2 test header 2
+
+	p this is the login page!
+
+	input(type='button', name='testButton', value='this is the bText', onClick='buttonClick()') 
+	input(type='button', name='promptButton', value='this is the promptButton', onClick='promptButtonClick()') 
+	input(type='button', name='getButton', value='this is the promptButton', onClick='getButtonClick()') 
+	p test text: <input type="text" name="lastname" />
+	a(title='go home now', href='/home') go home now
+	p
+	a(href='/info') goto info
+	script
+		$(document).ready(function(){
+			$('body').hide().fadeIn(1500);
+		});
+		function buttonClick(){
+			$('body').hide().fadeIn(3000);
+		}
+		function promptButtonClick(){
+			var name = prompt('what is your name?','sample');
+			if(name!='')
+			{
+				alert('Hello '+name);
+			}
+		}
+		function getButtonClick(){
+			//alert('getButton fired');
+			$.get("/json", function(data){
+			alert("Data Loaded: " + data);
+			});
+			}
+	
+		
+
+
+

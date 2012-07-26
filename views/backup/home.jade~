@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p this is the HOMEPAGE
+  p this is a link: 
+  a(href='/login', title='goto login page')
+
