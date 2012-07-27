@@ -1,0 +1,1273 @@
+info it worked if it ends with ok
+verbose cli [ 'c:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'node-inspector' ]
+info using npm@1.1.1
+info using node@v0.6.11
+verbose config file C:\Users\Morgan\.npmrc
+verbose config file c:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file c:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm 755
+verbose mkdir done: C:\apache\expTest 755
+verbose caching C:\apache\expTest\package.json
+verbose loadDefaults application-name@0.0.1
+verbose caching C:\apache\expTest\node_modules\express\package.json
+verbose loadDefaults express@3.0.0rc1
+verbose caching C:\apache\expTest\node_modules\jade\package.json
+verbose loadDefaults jade@0.26.3
+verbose from cache C:\apache\expTest\package.json
+verbose cache add [ 'node-inspector', null ]
+silly cache add: name, spec, args [ undefined, 'node-inspector', [ 'node-inspector', null ] ]
+verbose parsed url { pathname: 'node-inspector',
+verbose parsed url   path: 'node-inspector',
+verbose parsed url   href: 'node-inspector' }
+verbose addNamed [ 'node-inspector', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'node-inspector', '', false ]
+verbose raw, before any munging node-inspector
+verbose url resolving [ 'https://registry.npmjs.org/', './node-inspector' ]
+verbose url resolved https://registry.npmjs.org/node-inspector
+verbose etag "8FJIFXE7US9I0BP0QMZGY231W"
+http GET https://registry.npmjs.org/node-inspector
+http 304 https://registry.npmjs.org/node-inspector
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"8FJIFXE7US9I0BP0QMZGY231W"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:11:00 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag node-inspector from cache
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm-cache\node-inspector 755
+silly name, range, hasData 2 [ 'node-inspector', '', true ]
+silly versions [ 'node-inspector',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.1.10',
+silly versions     '0.2.0beta1',
+silly versions     '0.2.0beta2',
+silly versions     '0.2.0beta3' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '2adb552da7757ff3d4ec549f5570799355952d20',
+verbose bin dist     tarball: 'http://registry.npmjs.org/node-inspector/-/node-inspector-0.2.0beta3.tgz' } ]
+verbose caching C:\Users\Morgan\AppData\Roaming\npm-cache\node-inspector\0.2.0beta3\package\package.json
+verbose loadDefaults node-inspector@0.2.0beta3
+silly resolved [ { name: 'node-inspector',
+silly resolved     version: '0.2.0beta3',
+silly resolved     description: 'Web Inspector based nodeJS debugger',
+silly resolved     homepage: 'http://github.com/dannycoates/node-inspector',
+silly resolved     author: { name: 'Danny Coates', email: 'dannycoates@gmail.com' },
+silly resolved     keywords: [ 'debug', 'debugger', 'inspector', 'profiler' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/dannycoates/node-inspector.git' },
+silly resolved     engines: { node: '>=0.6.0' },
+silly resolved     bin: { 'node-inspector': './bin/inspector.js' },
+silly resolved     dependencies: { 'socket.io': '~0.9', connect: '~1.8.5', async: '~0.1' },
+silly resolved     preferGlobal: true,
+silly resolved     _id: 'node-inspector@0.2.0beta3',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     scripts: {} } ]
+info into C:\apache\expTest node-inspector@0.2.0beta3
+info installOne node-inspector@0.2.0beta3
+info unbuild C:\apache\expTest\node_modules\node-inspector
+verbose from cache C:\Users\Morgan\AppData\Roaming\npm-cache\node-inspector\0.2.0beta3\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\___node-inspector.npm'
+verbose mkdir done: C:\apache\expTest\node_modules\___node-inspector.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\apache\expTest\node_modules\node-inspector
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\apache\expTest\node_modules\___node-inspector.npm\package
+verbose rm'ed C:\apache\expTest\node_modules\node-inspector
+verbose renamed [ 'C:\\apache\\expTest\\node_modules\\___node-inspector.npm\\package',
+verbose renamed   'C:\\apache\\expTest\\node_modules\\node-inspector' ]
+verbose caching C:\apache\expTest\node_modules\node-inspector\package.json
+verbose loadDefaults node-inspector@0.2.0beta3
+info preinstall node-inspector@0.2.0beta3
+verbose from cache C:\apache\expTest\node_modules\node-inspector\package.json
+verbose cache add [ 'connect@~1.8.5', null ]
+silly cache add: name, spec, args [ undefined, 'connect@~1.8.5', [ 'connect@~1.8.5', null ] ]
+verbose parsed url { pathname: 'connect@~1.8.5',
+verbose parsed url   path: 'connect@~1.8.5',
+verbose parsed url   href: 'connect@~1.8.5' }
+silly cache add: name, spec, args [ 'connect', '~1.8.5', [ 'connect', '~1.8.5' ] ]
+verbose parsed url { pathname: '~1.8.5', path: '~1.8.5', href: '~1.8.5' }
+verbose addNamed [ 'connect', '~1.8.5' ]
+verbose addNamed [ null, '>=1.8.5- <1.9.0-' ]
+silly name, range, hasData [ 'connect', '>=1.8.5- <1.9.0-', false ]
+verbose cache add [ 'async@~0.1', null ]
+silly cache add: name, spec, args [ undefined, 'async@~0.1', [ 'async@~0.1', null ] ]
+verbose parsed url { pathname: 'async@~0.1',
+verbose parsed url   path: 'async@~0.1',
+verbose parsed url   href: 'async@~0.1' }
+silly cache add: name, spec, args [ 'async', '~0.1', [ 'async', '~0.1' ] ]
+verbose parsed url { pathname: '~0.1', path: '~0.1', href: '~0.1' }
+verbose addNamed [ 'async', '~0.1' ]
+verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+silly name, range, hasData [ 'async', '>=0.1.0- <0.2.0-', false ]
+verbose cache add [ 'socket.io@~0.9', null ]
+silly cache add: name, spec, args [ undefined, 'socket.io@~0.9', [ 'socket.io@~0.9', null ] ]
+verbose parsed url { pathname: 'socket.io@~0.9',
+verbose parsed url   path: 'socket.io@~0.9',
+verbose parsed url   href: 'socket.io@~0.9' }
+silly cache add: name, spec, args [ 'socket.io', '~0.9', [ 'socket.io', '~0.9' ] ]
+verbose parsed url { pathname: '~0.9', path: '~0.9', href: '~0.9' }
+verbose addNamed [ 'socket.io', '~0.9' ]
+verbose addNamed [ null, '>=0.9.0- <0.10.0-' ]
+silly name, range, hasData [ 'socket.io', '>=0.9.0- <0.10.0-', false ]
+verbose raw, before any munging socket.io
+verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+verbose url resolved https://registry.npmjs.org/socket.io
+verbose etag "WY0ZLD8J4DRX85F7E79E96CI"
+http GET https://registry.npmjs.org/socket.io
+verbose raw, before any munging connect
+verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+verbose url resolved https://registry.npmjs.org/connect
+verbose etag "4UE4G5BJK0FMJVJOK1QN0NM7Z"
+http GET https://registry.npmjs.org/connect
+verbose raw, before any munging async
+verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
+verbose url resolved https://registry.npmjs.org/async
+verbose etag "3MAH2YJRVOL2U444HAI14OVNT"
+http GET https://registry.npmjs.org/async
+http 304 https://registry.npmjs.org/socket.io
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"WY0ZLD8J4DRX85F7E79E96CI"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:11:01 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag socket.io from cache
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm-cache\socket.io 755
+http 304 https://registry.npmjs.org/async
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"3MAH2YJRVOL2U444HAI14OVNT"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:11:01 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag async from cache
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm-cache\async 755
+silly name, range, hasData 2 [ 'socket.io', '>=0.9.0- <0.10.0-', true ]
+silly versions [ 'socket.io',
+silly versions   [ '0.3.8',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.5.1',
+silly versions     '0.5.3',
+silly versions     '0.6.0',
+silly versions     '0.6.1',
+silly versions     '0.6.3',
+silly versions     '0.6.4',
+silly versions     '0.6.5',
+silly versions     '0.6.6',
+silly versions     '0.6.7',
+silly versions     '0.6.8',
+silly versions     '0.6.9',
+silly versions     '0.6.10',
+silly versions     '0.6.11',
+silly versions     '0.6.12',
+silly versions     '0.6.14',
+silly versions     '0.6.15',
+silly versions     '0.6.16',
+silly versions     '0.6.17',
+silly versions     '0.6.18',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.7.3',
+silly versions     '0.7.4',
+silly versions     '0.7.5',
+silly versions     '0.7.6',
+silly versions     '0.7.7',
+silly versions     '0.7.8',
+silly versions     '0.7.9',
+silly versions     '0.7.10',
+silly versions     '0.7.11',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.8.3',
+silly versions     '0.8.4',
+silly versions     '0.8.5',
+silly versions     '0.8.6',
+silly versions     '0.8.7',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.1-1',
+silly versions     '0.9.2',
+silly versions     '0.9.3',
+silly versions     '0.9.4',
+silly versions     '0.9.5',
+silly versions     '0.9.6',
+silly versions     '0.9.7',
+silly versions     '0.9.8' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'f085fe0957c85cccdae062bf2d3ddc19a37e7643',
+verbose bin dist     tarball: 'http://registry.npmjs.org/socket.io/-/socket.io-0.9.8.tgz' } ]
+silly name, range, hasData 2 [ 'async', '>=0.1.0- <0.2.0-', true ]
+silly versions [ 'async',
+silly versions   [ '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.1.10',
+silly versions     '0.1.11',
+silly versions     '0.1.12',
+silly versions     '0.1.13',
+silly versions     '0.1.14',
+silly versions     '0.1.15',
+silly versions     '0.1.16',
+silly versions     '0.1.17',
+silly versions     '0.1.18',
+silly versions     '0.1.19',
+silly versions     '0.1.20',
+silly versions     '0.1.21',
+silly versions     '0.1.22' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '0fc1aaa088a0e3ef0ebe2d8831bab0dcf8845061',
+verbose bin dist     tarball: 'http://registry.npmjs.org/async/-/async-0.1.22.tgz' } ]
+verbose caching C:\Users\Morgan\AppData\Roaming\npm-cache\socket.io\0.9.8\package\package.json
+verbose loadDefaults socket.io@0.9.8
+verbose caching C:\Users\Morgan\AppData\Roaming\npm-cache\async\0.1.22\package\package.json
+verbose loadDefaults async@0.1.22
+http 304 https://registry.npmjs.org/connect
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"4UE4G5BJK0FMJVJOK1QN0NM7Z"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:11:01 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag connect from cache
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm-cache\connect 755
+silly name, range, hasData 2 [ 'connect', '>=1.8.5- <1.9.0-', true ]
+silly versions [ 'connect',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.5.5',
+silly versions     '0.5.6',
+silly versions     '0.5.7',
+silly versions     '0.5.8',
+silly versions     '0.5.9',
+silly versions     '0.5.10',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.7.2',
+silly versions     '1.7.3',
+silly versions     '1.8.0',
+silly versions     '1.8.1',
+silly versions     '1.8.2',
+silly versions     '1.8.3',
+silly versions     '1.8.4',
+silly versions     '1.8.5',
+silly versions     '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.0.2',
+silly versions     '2.0.3',
+silly versions     '1.8.6',
+silly versions     '2.1.0',
+silly versions     '2.1.1',
+silly versions     '2.1.2',
+silly versions     '1.8.7',
+silly versions     '2.1.3',
+silly versions     '2.2.0',
+silly versions     '2.2.1',
+silly versions     '2.2.2',
+silly versions     '2.3.0',
+silly versions     '2.3.1',
+silly versions     '2.3.2',
+silly versions     '2.3.3',
+silly versions     '1.9.0',
+silly versions     '1.9.1',
+silly versions     '2.3.4',
+silly versions     '2.3.5',
+silly versions     '2.3.6',
+silly versions     '2.3.7',
+silly versions     '1.9.2',
+silly versions     '2.3.8',
+silly versions     '2.3.9',
+silly versions     '2.4.0',
+silly versions     '2.4.1',
+silly versions     '2.4.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'b620281884d455fab94c693d2db748652d6c8c17',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect/-/connect-1.8.7.tgz' } ]
+verbose caching C:\Users\Morgan\AppData\Roaming\npm-cache\connect\1.8.7\package\package.json
+verbose loadDefaults connect@1.8.7
+silly resolved [ { name: 'socket.io',
+silly resolved     version: '0.9.8',
+silly resolved     description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+silly resolved     homepage: 'http://socket.io',
+silly resolved     keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' },
+silly resolved        { name: 'Arnout Kazemier', email: 'info@3rd-eden.com' },
+silly resolved        { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly resolved        { name: 'Einar Otto Stangvik', email: 'einaros@gmail.com' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/LearnBoost/socket.io.git' },
+silly resolved     dependencies: 
+silly resolved      { 'socket.io-client': '0.9.8',
+silly resolved        policyfile: '0.0.4',
+silly resolved        redis: '0.7.2' },
+silly resolved     devDependencies: 
+silly resolved      { expresso: '0.9.2',
+silly resolved        should: '*',
+silly resolved        benchmark: '0.2.2',
+silly resolved        microtime: '0.1.3-1',
+silly resolved        colors: '0.5.1' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     scripts: { test: 'make test' },
+silly resolved     _id: 'socket.io@0.9.8',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'async',
+silly resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+silly resolved     main: './index',
+silly resolved     author: { name: 'Caolan McMahon' },
+silly resolved     version: '0.1.22',
+silly resolved     repository: { type: 'git', url: 'git://github.com/caolan/async.git' },
+silly resolved     bugs: { url: 'http://github.com/caolan/async/issues' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'http://github.com/caolan/async/raw/master/LICENSE' } ],
+silly resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+silly resolved     _id: 'async@0.1.22',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     scripts: {} },
+silly resolved   { name: 'connect',
+silly resolved     version: '1.8.7',
+silly resolved     description: 'High performance middleware framework',
+silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/senchalabs/connect.git' },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     dependencies: { qs: '>= 0.4.0', mime: '>= 0.0.1', formidable: '1.0.x' },
+silly resolved     devDependencies: 
+silly resolved      { expresso: '0.9.2',
+silly resolved        koala: '0.1.2',
+silly resolved        less: '1.1.1',
+silly resolved        sass: '0.5.0',
+silly resolved        markdown: '0.2.1',
+silly resolved        ejs: '0.4.3',
+silly resolved        should: '0.3.2' },
+silly resolved     publishConfig: { tag: '1.8' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.4.1 < 0.7.0' },
+silly resolved     _id: 'connect@1.8.7',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     scripts: {} } ]
+info into C:\apache\expTest\node_modules\node-inspector socket.io@0.9.8
+info into C:\apache\expTest\node_modules\node-inspector async@0.1.22
+info into C:\apache\expTest\node_modules\node-inspector connect@1.8.7
+info installOne socket.io@0.9.8
+info installOne async@0.1.22
+info installOne connect@1.8.7
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\async
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\connect
+verbose from cache C:\Users\Morgan\AppData\Roaming\npm-cache\socket.io\0.9.8\package\package.json
+verbose from cache C:\Users\Morgan\AppData\Roaming\npm-cache\async\0.1.22\package\package.json
+verbose from cache C:\Users\Morgan\AppData\Roaming\npm-cache\connect\1.8.7\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\___connect.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\___async.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\___socket.io.npm'
+verbose mkdir done: C:\apache\expTest\node_modules\node-inspector\node_modules\___socket.io.npm 755
+verbose mkdir done: C:\apache\expTest\node_modules\node-inspector\node_modules\___async.npm 755
+verbose mkdir done: C:\apache\expTest\node_modules\node-inspector\node_modules\___connect.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\apache\expTest\node_modules\node-inspector\node_modules\connect
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\apache\expTest\node_modules\node-inspector\node_modules\async
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\apache\expTest\node_modules\node-inspector\node_modules\___async.npm\package
+verbose rm'ed C:\apache\expTest\node_modules\node-inspector\node_modules\async
+verbose renamed [ 'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\___async.npm\\package',
+verbose renamed   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\async' ]
+verbose caching C:\apache\expTest\node_modules\node-inspector\node_modules\async\package.json
+verbose loadDefaults async@0.1.22
+info preinstall async@0.1.22
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\async\package.json
+silly resolved []
+verbose about to build C:\apache\expTest\node_modules\node-inspector\node_modules\async
+info build C:\apache\expTest\node_modules\node-inspector\node_modules\async
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\async\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules' ]
+info linkStuff async@0.1.22
+verbose linkBins async@0.1.22
+verbose linkMans async@0.1.22
+verbose rebuildBundles async@0.1.22
+info install async@0.1.22
+info postinstall async@0.1.22
+verbose installOne cb async@0.1.22
+silly afterUntar undefined
+verbose gunzed C:\apache\expTest\node_modules\node-inspector\node_modules\___socket.io.npm\package
+verbose rm'ed C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io
+verbose renamed [ 'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\___socket.io.npm\\package',
+verbose renamed   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io' ]
+verbose caching C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\package.json
+verbose loadDefaults socket.io@0.9.8
+info preinstall socket.io@0.9.8
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\package.json
+verbose cache add [ 'policyfile@0.0.4', null ]
+silly cache add: name, spec, args [ undefined, 'policyfile@0.0.4', [ 'policyfile@0.0.4', null ] ]
+verbose parsed url { pathname: 'policyfile@0.0.4',
+verbose parsed url   path: 'policyfile@0.0.4',
+verbose parsed url   href: 'policyfile@0.0.4' }
+silly cache add: name, spec, args [ 'policyfile', '0.0.4', [ 'policyfile', '0.0.4' ] ]
+verbose parsed url { pathname: '0.0.4', path: '0.0.4', href: '0.0.4' }
+verbose addNamed [ 'policyfile', '0.0.4' ]
+verbose addNamed [ '0.0.4', '0.0.4' ]
+verbose cache add [ 'redis@0.7.2', null ]
+silly cache add: name, spec, args [ undefined, 'redis@0.7.2', [ 'redis@0.7.2', null ] ]
+verbose parsed url { pathname: 'redis@0.7.2',
+verbose parsed url   path: 'redis@0.7.2',
+verbose parsed url   href: 'redis@0.7.2' }
+silly cache add: name, spec, args [ 'redis', '0.7.2', [ 'redis', '0.7.2' ] ]
+verbose parsed url { pathname: '0.7.2', path: '0.7.2', href: '0.7.2' }
+verbose addNamed [ 'redis', '0.7.2' ]
+verbose addNamed [ '0.7.2', '0.7.2' ]
+verbose cache add [ 'socket.io-client@0.9.8', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'socket.io-client@0.9.8',
+silly cache add: name, spec, args   [ 'socket.io-client@0.9.8', null ] ]
+verbose parsed url { pathname: 'socket.io-client@0.9.8',
+verbose parsed url   path: 'socket.io-client@0.9.8',
+verbose parsed url   href: 'socket.io-client@0.9.8' }
+silly cache add: name, spec, args [ 'socket.io-client', '0.9.8', [ 'socket.io-client', '0.9.8' ] ]
+verbose parsed url { pathname: '0.9.8', path: '0.9.8', href: '0.9.8' }
+verbose addNamed [ 'socket.io-client', '0.9.8' ]
+verbose addNamed [ '0.9.8', '0.9.8' ]
+verbose raw, before any munging redis/0.7.2
+verbose url resolving [ 'https://registry.npmjs.org/', './redis/0.7.2' ]
+verbose url resolved https://registry.npmjs.org/redis/0.7.2
+verbose etag "A6VQQF95753LU2SL5R3QN8QDA"
+http GET https://registry.npmjs.org/redis/0.7.2
+verbose raw, before any munging policyfile/0.0.4
+verbose url resolving [ 'https://registry.npmjs.org/', './policyfile/0.0.4' ]
+verbose url resolved https://registry.npmjs.org/policyfile/0.0.4
+verbose etag "20FFQ45G1HH14UVEUV8NOG593"
+http GET https://registry.npmjs.org/policyfile/0.0.4
+verbose raw, before any munging socket.io-client/0.9.8
+verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-client/0.9.8' ]
+verbose url resolved https://registry.npmjs.org/socket.io-client/0.9.8
+verbose etag "7VURRCCA50C3Z9CL6TQX156UB"
+http GET https://registry.npmjs.org/socket.io-client/0.9.8
+silly afterUntar undefined
+verbose gunzed C:\apache\expTest\node_modules\node-inspector\node_modules\___connect.npm\package
+verbose rm'ed C:\apache\expTest\node_modules\node-inspector\node_modules\connect
+verbose renamed [ 'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\___connect.npm\\package',
+verbose renamed   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\connect' ]
+verbose caching C:\apache\expTest\node_modules\node-inspector\node_modules\connect\package.json
+verbose loadDefaults connect@1.8.7
+info preinstall connect@1.8.7
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\connect\package.json
+verbose cache add [ 'mime@>= 0.0.1', null ]
+silly cache add: name, spec, args [ undefined, 'mime@>= 0.0.1', [ 'mime@>= 0.0.1', null ] ]
+verbose parsed url { pathname: 'mime@', path: 'mime@', href: 'mime@' }
+silly cache add: name, spec, args [ 'mime', '>= 0.0.1', [ 'mime', '>= 0.0.1' ] ]
+verbose parsed url { pathname: '=', path: '=', href: '=' }
+verbose addNamed [ 'mime', '>= 0.0.1' ]
+verbose addNamed [ null, '>=0.0.1' ]
+silly name, range, hasData [ 'mime', '>=0.0.1', false ]
+verbose cache add [ 'formidable@1.0.x', null ]
+silly cache add: name, spec, args [ undefined, 'formidable@1.0.x', [ 'formidable@1.0.x', null ] ]
+verbose parsed url { pathname: 'formidable@1.0.x',
+verbose parsed url   path: 'formidable@1.0.x',
+verbose parsed url   href: 'formidable@1.0.x' }
+silly cache add: name, spec, args [ 'formidable', '1.0.x', [ 'formidable', '1.0.x' ] ]
+verbose parsed url { pathname: '1.0.x', path: '1.0.x', href: '1.0.x' }
+verbose addNamed [ 'formidable', '1.0.x' ]
+verbose addNamed [ null, '>=1.0.0- <1.1.0-' ]
+silly name, range, hasData [ 'formidable', '>=1.0.0- <1.1.0-', false ]
+verbose cache add [ 'qs@>= 0.4.0', null ]
+silly cache add: name, spec, args [ undefined, 'qs@>= 0.4.0', [ 'qs@>= 0.4.0', null ] ]
+verbose parsed url { pathname: 'qs@', path: 'qs@', href: 'qs@' }
+silly cache add: name, spec, args [ 'qs', '>= 0.4.0', [ 'qs', '>= 0.4.0' ] ]
+verbose parsed url { pathname: '=', path: '=', href: '=' }
+verbose addNamed [ 'qs', '>= 0.4.0' ]
+verbose addNamed [ null, '>=0.4.0' ]
+silly name, range, hasData [ 'qs', '>=0.4.0', false ]
+verbose raw, before any munging mime
+verbose url resolving [ 'https://registry.npmjs.org/', './mime' ]
+verbose url resolved https://registry.npmjs.org/mime
+verbose etag "ESFTKGKDQTSAT79DOHR0X94GZ"
+http GET https://registry.npmjs.org/mime
+verbose raw, before any munging qs
+verbose url resolving [ 'https://registry.npmjs.org/', './qs' ]
+verbose url resolved https://registry.npmjs.org/qs
+verbose etag "96G5UZCGW4RIJGWDI6I1PZ9UU"
+http GET https://registry.npmjs.org/qs
+verbose raw, before any munging formidable
+verbose url resolving [ 'https://registry.npmjs.org/', './formidable' ]
+verbose url resolved https://registry.npmjs.org/formidable
+verbose etag "687O1KSH9HMTDREQVJBFY2P7M"
+http GET https://registry.npmjs.org/formidable
+http 304 https://registry.npmjs.org/policyfile/0.0.4
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"20FFQ45G1HH14UVEUV8NOG593"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:11:02 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag policyfile/0.0.4 from cache
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm-cache\policyfile\0.0.4 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'd6b82ead98ae79ebe228e2daf5903311ec982e4d',
+verbose bin dist     tarball: 'http://registry.npmjs.org/policyfile/-/policyfile-0.0.4.tgz' } ]
+verbose caching C:\Users\Morgan\AppData\Roaming\npm-cache\policyfile\0.0.4\package\package.json
+verbose loadDefaults policyfile@0.0.4
+http 304 https://registry.npmjs.org/redis/0.7.2
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"A6VQQF95753LU2SL5R3QN8QDA"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:11:02 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag redis/0.7.2 from cache
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm-cache\redis\0.7.2 755
+http 304 https://registry.npmjs.org/socket.io-client/0.9.8
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"7VURRCCA50C3Z9CL6TQX156UB"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:11:02 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag socket.io-client/0.9.8 from cache
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm-cache\socket.io-client\0.9.8 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'fa557fef4985ab3e3384fdc5be6e2541a0bb49af',
+verbose bin dist     tarball: 'http://registry.npmjs.org/redis/-/redis-0.7.2.tgz' } ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '454a1cb4194740531ac23f966e98dc87cd713e28',
+verbose bin dist     tarball: 'http://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.8.tgz' } ]
+verbose caching C:\Users\Morgan\AppData\Roaming\npm-cache\redis\0.7.2\package\package.json
+verbose loadDefaults redis@0.7.2
+verbose caching C:\Users\Morgan\AppData\Roaming\npm-cache\socket.io-client\0.9.8\package\package.json
+verbose loadDefaults socket.io-client@0.9.8
+silly resolved [ { name: 'policyfile',
+silly resolved     version: '0.0.4',
+silly resolved     author: { name: 'Arnout Kazemier' },
+silly resolved     description: 'Flash Socket Policy File Server. A server to respond to Flash Socket Policy requests, both inline and through a dedicated server instance.',
+silly resolved     main: 'index',
+silly resolved     keywords: 
+silly resolved      [ 'flash',
+silly resolved        'socket',
+silly resolved        'policy',
+silly resolved        'file',
+silly resolved        'server',
+silly resolved        'Flash Socket Policy File Server',
+silly resolved        'cross domain' ],
+silly resolved     directories: { lib: './lib' },
+silly resolved     maintainers: 
+silly resolved      [ { name: 'Arnout Kazemier',
+silly resolved          email: 'info@3rd-Eden.com',
+silly resolved          url: 'http://blog.3rd-Eden.com' } ],
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'https://github.com/3rd-Eden/FlashPolicyFileServer/blob/master/LICENSE' } ],
+silly resolved     repositories: 
+silly resolved      [ { type: 'git',
+silly resolved          url: 'https://github.com/3rd-Eden/FlashPolicyFileServer.git' } ],
+silly resolved     _id: 'policyfile@0.0.4',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     scripts: {} },
+silly resolved   { name: 'redis',
+silly resolved     version: '0.7.2',
+silly resolved     description: 'Redis client library',
+silly resolved     author: { name: 'Matt Ranney', email: 'mjr@ranney.com' },
+silly resolved     maintainers: 
+silly resolved      [ { name: 'David Trejo',
+silly resolved          email: 'david.daniel.trejo@gmail.com',
+silly resolved          url: 'http://dtrejo.com/' } ],
+silly resolved     main: './index.js',
+silly resolved     scripts: { test: 'node ./test.js' },
+silly resolved     devDependencies: { metrics: '>=0.1.5' },
+silly resolved     optionalDependencies: { hiredis: '*' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/mranney/node_redis.git' },
+silly resolved     _id: 'redis@0.7.2',
+silly resolved     dependencies: { hiredis: '*' },
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'socket.io-client',
+silly resolved     description: 'Socket.IO client for the browser and node.js',
+silly resolved     version: '0.9.8',
+silly resolved     main: './lib/io.js',
+silly resolved     browserify: './dist/socket.io.js',
+silly resolved     homepage: 'http://socket.io',
+silly resolved     keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' },
+silly resolved        { name: 'Arnout Kazemier', email: 'info@3rd-eden.com' },
+silly resolved        { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly resolved        { name: 'Einar Otto Stangvik', email: 'einaros@gmail.com' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/LearnBoost/socket.io-client.git' },
+silly resolved     dependencies: 
+silly resolved      { 'uglify-js': '1.2.5',
+silly resolved        ws: '0.4.x',
+silly resolved        xmlhttprequest: '1.2.2',
+silly resolved        'active-x-obfuscator': '0.0.1' },
+silly resolved     devDependencies: 
+silly resolved      { expresso: '*',
+silly resolved        express: '2.5.x',
+silly resolved        jade: '*',
+silly resolved        stylus: '*',
+silly resolved        'socket.io': '0.9.8',
+silly resolved        'socket.io-client': '0.9.8' },
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     _id: 'socket.io-client@0.9.8',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     scripts: {} } ]
+info into C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io policyfile@0.0.4
+info into C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io redis@0.7.2
+info into C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io socket.io-client@0.9.8
+info installOne policyfile@0.0.4
+info installOne redis@0.7.2
+info installOne socket.io-client@0.9.8
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\policyfile
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\socket.io-client
+verbose from cache C:\Users\Morgan\AppData\Roaming\npm-cache\policyfile\0.0.4\package\package.json
+verbose from cache C:\Users\Morgan\AppData\Roaming\npm-cache\socket.io-client\0.9.8\package\package.json
+verbose from cache C:\Users\Morgan\AppData\Roaming\npm-cache\redis\0.7.2\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\___policyfile.npm'
+verbose mkdir done: C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\___policyfile.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\___socket.io-client.npm'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\policyfile
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\___socket.io-client.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\socket.io-client
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\___redis.npm'
+verbose mkdir done: C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\___redis.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis
+silly gunzTarPerm modes [ '755', '644' ]
+http 304 https://registry.npmjs.org/formidable
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"687O1KSH9HMTDREQVJBFY2P7M"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:11:02 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag formidable from cache
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm-cache\formidable 755
+silly name, range, hasData 2 [ 'formidable', '>=1.0.0- <1.1.0-', true ]
+silly versions [ 'formidable',
+silly versions   [ '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.6.0',
+silly versions     '0.7.0',
+silly versions     '0.8.0',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.2',
+silly versions     '0.9.3',
+silly versions     '0.9.4',
+silly versions     '0.9.5',
+silly versions     '0.9.6',
+silly versions     '0.9.7',
+silly versions     '0.9.8',
+silly versions     '0.9.9',
+silly versions     '0.9.10',
+silly versions     '0.9.11',
+silly versions     '1.0.0',
+silly versions     '1.0.1',
+silly versions     '1.0.2',
+silly versions     '1.0.3',
+silly versions     '1.0.4',
+silly versions     '1.0.5',
+silly versions     '1.0.6',
+silly versions     '1.0.7',
+silly versions     '1.0.8',
+silly versions     '1.0.9',
+silly versions     '1.0.10',
+silly versions     '1.0.11' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '68f63325a035e644b6f7bb3d11243b9761de1b30',
+verbose bin dist     tarball: 'http://registry.npmjs.org/formidable/-/formidable-1.0.11.tgz' } ]
+verbose caching C:\Users\Morgan\AppData\Roaming\npm-cache\formidable\1.0.11\package\package.json
+verbose loadDefaults formidable@1.0.11
+silly afterUntar undefined
+verbose gunzed C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\___policyfile.npm\package
+verbose rm'ed C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\policyfile
+verbose renamed [ 'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules\\___policyfile.npm\\package',
+verbose renamed   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules\\policyfile' ]
+verbose caching C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\policyfile\package.json
+verbose loadDefaults policyfile@0.0.4
+info preinstall policyfile@0.0.4
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\policyfile\package.json
+silly resolved []
+verbose about to build C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\policyfile
+info build C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\policyfile
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\policyfile\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules' ]
+info linkStuff policyfile@0.0.4
+verbose linkBins policyfile@0.0.4
+verbose linkMans policyfile@0.0.4
+verbose rebuildBundles policyfile@0.0.4
+info install policyfile@0.0.4
+info postinstall policyfile@0.0.4
+verbose installOne cb policyfile@0.0.4
+http 304 https://registry.npmjs.org/qs
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"96G5UZCGW4RIJGWDI6I1PZ9UU"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:11:02 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag qs from cache
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm-cache\qs 755
+silly name, range, hasData 2 [ 'qs', '>=0.4.0', true ]
+silly versions [ 'qs',
+silly versions   [ '0.0.1',
+silly versions     '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.3.0',
+silly versions     '0.3.1',
+silly versions     '0.3.2',
+silly versions     '0.4.0',
+silly versions     '0.4.1',
+silly versions     '0.4.2',
+silly versions     '0.5.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'fda53429faaa8a3a72f630941d4851144a24d34e',
+verbose bin dist     tarball: 'http://registry.npmjs.org/qs/-/qs-0.5.0.tgz' } ]
+verbose caching C:\Users\Morgan\AppData\Roaming\npm-cache\qs\0.5.0\package\package.json
+verbose loadDefaults qs@0.5.0
+silly afterUntar undefined
+verbose gunzed C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\___redis.npm\package
+verbose rm'ed C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis
+http 304 https://registry.npmjs.org/mime
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"ESFTKGKDQTSAT79DOHR0X94GZ"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:11:02 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag mime from cache
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm-cache\mime 755
+verbose renamed [ 'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules\\___redis.npm\\package',
+verbose renamed   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules\\redis' ]
+silly name, range, hasData 2 [ 'mime', '>=0.0.1', true ]
+silly versions [ 'mime',
+silly versions   [ '1.0.0',
+silly versions     '1.1.0',
+silly versions     '1.2.1',
+silly versions     '1.2.2',
+silly versions     '1.2.3',
+silly versions     '1.2.4',
+silly versions     '1.2.5',
+silly versions     '1.2.6',
+silly versions     '1.2.7' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'c7a13f33a7073d9900f288436b06b3a16200865b',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mime/-/mime-1.2.7.tgz' } ]
+verbose caching C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\package.json
+verbose loadDefaults redis@0.7.2
+info preinstall redis@0.7.2
+verbose caching C:\Users\Morgan\AppData\Roaming\npm-cache\mime\1.2.7\package\package.json
+verbose loadDefaults mime@1.2.7
+silly resolved [ { name: 'formidable',
+silly resolved     version: '1.0.11',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: 
+silly resolved      { gently: '0.8.0',
+silly resolved        findit: '0.1.1',
+silly resolved        hashish: '0.0.4',
+silly resolved        urun: '0.0.4',
+silly resolved        utest: '0.0.3' },
+silly resolved     directories: { lib: './lib' },
+silly resolved     main: './lib/index',
+silly resolved     scripts: { test: 'make test' },
+silly resolved     engines: { node: '*' },
+silly resolved     optionalDependencies: {},
+silly resolved     _id: 'formidable@1.0.11',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'qs',
+silly resolved     description: 'querystring parser',
+silly resolved     version: '0.5.0',
+silly resolved     keywords: [ 'query string', 'parser', 'component' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/node-querystring.git' },
+silly resolved     devDependencies: { mocha: '*', 'expect.js': '*' },
+silly resolved     component: { scripts: { querystring: 'querystring.js' } },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'qs@0.5.0',
+silly resolved     dependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     scripts: {} },
+silly resolved   { author: 
+silly resolved      { name: 'Robert Kieffer',
+silly resolved        email: 'robert@broofa.com',
+silly resolved        url: 'http://github.com/broofa' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Benjamin Thomas',
+silly resolved          email: 'benjamin@benjaminthomas.org',
+silly resolved          url: 'http://github.com/bentomas' } ],
+silly resolved     dependencies: {},
+silly resolved     description: 'A comprehensive library for mime-type mapping',
+silly resolved     devDependencies: {},
+silly resolved     keywords: [ 'util', 'mime' ],
+silly resolved     main: 'mime.js',
+silly resolved     name: 'mime',
+silly resolved     repository: { url: 'git://github.com/broofa/node-mime.git', type: 'git' },
+silly resolved     version: '1.2.7',
+silly resolved     _id: 'mime@1.2.7',
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true,
+silly resolved     scripts: {} } ]
+info into C:\apache\expTest\node_modules\node-inspector\node_modules\connect formidable@1.0.11
+info into C:\apache\expTest\node_modules\node-inspector\node_modules\connect qs@0.5.0
+info into C:\apache\expTest\node_modules\node-inspector\node_modules\connect mime@1.2.7
+info installOne formidable@1.0.11
+info installOne qs@0.5.0
+info installOne mime@1.2.7
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\formidable
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\qs
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\mime
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\package.json
+verbose from cache C:\Users\Morgan\AppData\Roaming\npm-cache\qs\0.5.0\package\package.json
+verbose from cache C:\Users\Morgan\AppData\Roaming\npm-cache\formidable\1.0.11\package\package.json
+verbose from cache C:\Users\Morgan\AppData\Roaming\npm-cache\mime\1.2.7\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\___mime.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\___qs.npm'
+verbose mkdir done: C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\___mime.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\___formidable.npm'
+verbose mkdir done: C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\___qs.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\mime
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\qs
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\___formidable.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\formidable
+silly gunzTarPerm modes [ '755', '644' ]
+verbose cache add [ 'hiredis@*', null ]
+silly cache add: name, spec, args [ undefined, 'hiredis@*', [ 'hiredis@*', null ] ]
+verbose parsed url { pathname: 'hiredis@*', path: 'hiredis@*', href: 'hiredis@*' }
+silly cache add: name, spec, args [ 'hiredis', '*', [ 'hiredis', '*' ] ]
+verbose parsed url { pathname: '*', path: '*', href: '*' }
+verbose addNamed [ 'hiredis', '*' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'hiredis', '', false ]
+verbose raw, before any munging hiredis
+verbose url resolving [ 'https://registry.npmjs.org/', './hiredis' ]
+verbose url resolved https://registry.npmjs.org/hiredis
+verbose etag "SP70COBELWL1BSNKWEHMJFIL"
+http GET https://registry.npmjs.org/hiredis
+silly afterUntar undefined
+verbose gunzed C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\___mime.npm\package
+verbose rm'ed C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\mime
+verbose renamed [ 'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\connect\\node_modules\\___mime.npm\\package',
+verbose renamed   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\connect\\node_modules\\mime' ]
+verbose caching C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\mime\package.json
+verbose loadDefaults mime@1.2.7
+info preinstall mime@1.2.7
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\mime\package.json
+silly resolved []
+verbose about to build C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\mime
+info build C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\mime
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\mime\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\connect\\node_modules' ]
+info linkStuff mime@1.2.7
+verbose linkBins mime@1.2.7
+verbose linkMans mime@1.2.7
+verbose rebuildBundles mime@1.2.7
+info install mime@1.2.7
+info postinstall mime@1.2.7
+verbose installOne cb mime@1.2.7
+silly afterUntar undefined
+verbose gunzed C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\___qs.npm\package
+verbose rm'ed C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\qs
+verbose renamed [ 'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\connect\\node_modules\\___qs.npm\\package',
+verbose renamed   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\connect\\node_modules\\qs' ]
+verbose caching C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\qs\package.json
+verbose loadDefaults qs@0.5.0
+info preinstall qs@0.5.0
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\qs\package.json
+silly resolved []
+verbose about to build C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\qs
+info build C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\qs
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\qs\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\connect\\node_modules' ]
+info linkStuff qs@0.5.0
+verbose linkBins qs@0.5.0
+verbose linkMans qs@0.5.0
+verbose rebuildBundles qs@0.5.0
+info install qs@0.5.0
+info postinstall qs@0.5.0
+verbose installOne cb qs@0.5.0
+silly afterUntar undefined
+verbose gunzed C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\___formidable.npm\package
+verbose rm'ed C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\formidable
+verbose renamed [ 'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\connect\\node_modules\\___formidable.npm\\package',
+verbose renamed   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\connect\\node_modules\\formidable' ]
+verbose caching C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\formidable\package.json
+verbose loadDefaults formidable@1.0.11
+info preinstall formidable@1.0.11
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\formidable\package.json
+silly resolved []
+verbose about to build C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\formidable
+info build C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\formidable
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\connect\node_modules\formidable\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\connect\\node_modules' ]
+info linkStuff formidable@1.0.11
+verbose linkBins formidable@1.0.11
+verbose linkMans formidable@1.0.11
+verbose rebuildBundles formidable@1.0.11
+info install formidable@1.0.11
+info postinstall formidable@1.0.11
+verbose installOne cb formidable@1.0.11
+verbose about to build C:\apache\expTest\node_modules\node-inspector\node_modules\connect
+info build C:\apache\expTest\node_modules\node-inspector\node_modules\connect
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\connect\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules' ]
+info linkStuff connect@1.8.7
+verbose linkBins connect@1.8.7
+verbose linkMans connect@1.8.7
+verbose rebuildBundles connect@1.8.7
+verbose rebuildBundles [ 'formidable', 'mime', 'qs' ]
+info install connect@1.8.7
+info postinstall connect@1.8.7
+verbose installOne cb connect@1.8.7
+silly afterUntar undefined
+verbose gunzed C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\___socket.io-client.npm\package
+verbose rm'ed C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\socket.io-client
+verbose renamed [ 'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules\\___socket.io-client.npm\\package',
+verbose renamed   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules\\socket.io-client' ]
+verbose caching C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\socket.io-client\package.json
+verbose loadDefaults socket.io-client@0.9.8
+info preinstall socket.io-client@0.9.8
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\socket.io-client\package.json
+verbose cache add [ 'ws@0.4.x', null ]
+silly cache add: name, spec, args [ undefined, 'ws@0.4.x', [ 'ws@0.4.x', null ] ]
+verbose parsed url { pathname: 'ws@0.4.x', path: 'ws@0.4.x', href: 'ws@0.4.x' }
+silly cache add: name, spec, args [ 'ws', '0.4.x', [ 'ws', '0.4.x' ] ]
+verbose parsed url { pathname: '0.4.x', path: '0.4.x', href: '0.4.x' }
+verbose addNamed [ 'ws', '0.4.x' ]
+verbose addNamed [ null, '>=0.4.0- <0.5.0-' ]
+silly name, range, hasData [ 'ws', '>=0.4.0- <0.5.0-', false ]
+verbose cache add [ 'xmlhttprequest@1.2.2', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'xmlhttprequest@1.2.2',
+silly cache add: name, spec, args   [ 'xmlhttprequest@1.2.2', null ] ]
+verbose parsed url { pathname: 'xmlhttprequest@1.2.2',
+verbose parsed url   path: 'xmlhttprequest@1.2.2',
+verbose parsed url   href: 'xmlhttprequest@1.2.2' }
+silly cache add: name, spec, args [ 'xmlhttprequest', '1.2.2', [ 'xmlhttprequest', '1.2.2' ] ]
+verbose parsed url { pathname: '1.2.2', path: '1.2.2', href: '1.2.2' }
+verbose addNamed [ 'xmlhttprequest', '1.2.2' ]
+verbose addNamed [ '1.2.2', '1.2.2' ]
+verbose cache add [ 'active-x-obfuscator@0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'active-x-obfuscator@0.0.1',
+silly cache add: name, spec, args   [ 'active-x-obfuscator@0.0.1', null ] ]
+verbose parsed url { pathname: 'active-x-obfuscator@0.0.1',
+verbose parsed url   path: 'active-x-obfuscator@0.0.1',
+verbose parsed url   href: 'active-x-obfuscator@0.0.1' }
+silly cache add: name, spec, args [ 'active-x-obfuscator',
+silly cache add: name, spec, args   '0.0.1',
+silly cache add: name, spec, args   [ 'active-x-obfuscator', '0.0.1' ] ]
+verbose parsed url { pathname: '0.0.1', path: '0.0.1', href: '0.0.1' }
+verbose addNamed [ 'active-x-obfuscator', '0.0.1' ]
+verbose addNamed [ '0.0.1', '0.0.1' ]
+verbose cache add [ 'uglify-js@1.2.5', null ]
+silly cache add: name, spec, args [ undefined, 'uglify-js@1.2.5', [ 'uglify-js@1.2.5', null ] ]
+verbose parsed url { pathname: 'uglify-js@1.2.5',
+verbose parsed url   path: 'uglify-js@1.2.5',
+verbose parsed url   href: 'uglify-js@1.2.5' }
+silly cache add: name, spec, args [ 'uglify-js', '1.2.5', [ 'uglify-js', '1.2.5' ] ]
+verbose parsed url { pathname: '1.2.5', path: '1.2.5', href: '1.2.5' }
+verbose addNamed [ 'uglify-js', '1.2.5' ]
+verbose addNamed [ '1.2.5', '1.2.5' ]
+verbose raw, before any munging xmlhttprequest/1.2.2
+verbose url resolving [ 'https://registry.npmjs.org/', './xmlhttprequest/1.2.2' ]
+verbose url resolved https://registry.npmjs.org/xmlhttprequest/1.2.2
+verbose etag "57W12GCHVUP8GFOA8OOMIB61I"
+http GET https://registry.npmjs.org/xmlhttprequest/1.2.2
+verbose raw, before any munging active-x-obfuscator/0.0.1
+verbose url resolving [ 'https://registry.npmjs.org/', './active-x-obfuscator/0.0.1' ]
+verbose url resolved https://registry.npmjs.org/active-x-obfuscator/0.0.1
+verbose etag "7VE7MIOZOJOQNH26NT487Y8Z6"
+http GET https://registry.npmjs.org/active-x-obfuscator/0.0.1
+verbose raw, before any munging uglify-js/1.2.5
+verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js/1.2.5' ]
+verbose url resolved https://registry.npmjs.org/uglify-js/1.2.5
+verbose etag "BSB7SL5YBQP3PI6JC6ZA9Y8KW"
+http GET https://registry.npmjs.org/uglify-js/1.2.5
+verbose raw, before any munging ws
+verbose url resolving [ 'https://registry.npmjs.org/', './ws' ]
+verbose url resolved https://registry.npmjs.org/ws
+verbose etag "AAGRFPKUTVNNQZYZNCSKZ0U1D"
+http GET https://registry.npmjs.org/ws
+http 304 https://registry.npmjs.org/hiredis
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"SP70COBELWL1BSNKWEHMJFIL"',
+silly get cb     date: 'Thu, 26 Jul 2012 21:11:03 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag hiredis from cache
+verbose mkdir done: C:\Users\Morgan\AppData\Roaming\npm-cache\hiredis 755
+silly name, range, hasData 2 [ 'hiredis', '', true ]
+silly versions [ 'hiredis',
+silly versions   [ '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.1.10',
+silly versions     '0.1.12',
+silly versions     '0.1.13',
+silly versions     '0.1.14' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '37a8742dc26c14a7be8cf69549d96781403188b2',
+verbose bin dist     tarball: 'http://registry.npmjs.org/hiredis/-/hiredis-0.1.14.tgz' } ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\Morgan\\AppData\\Roaming\\npm-cache\\hiredis\\0.1.14\\package\\package.json',
+verbose has wscript     serverjs: false,
+verbose has wscript     contributors: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\Morgan\AppData\Roaming\npm-cache\hiredis\0.1.14\package\package.json
+verbose loadDefaults hiredis@0.1.14
+silly resolved [ { name: 'hiredis',
+silly resolved     description: 'Wrapper for reply processing code in hiredis',
+silly resolved     version: '0.1.14',
+silly resolved     homepage: 'http://github.com/pietern/hiredis-node',
+silly resolved     author: { name: 'Pieter Noordhuis', email: 'pcnoordhuis@gmail.com' },
+silly resolved     main: 'hiredis',
+silly resolved     directories: { lib: '.' },
+silly resolved     scripts: { preinstall: 'make || gmake', test: 'node test/reader.js' },
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'hiredis@0.1.14',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.1',
+silly resolved     _nodeVersion: 'v0.6.11',
+silly resolved     _defaultsLoaded: true } ]
+info into C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis hiredis@0.1.14
+info installOne hiredis@0.1.14
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\node_modules\hiredis
+verbose from cache C:\Users\Morgan\AppData\Roaming\npm-cache\hiredis\0.1.14\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\node_modules\___hiredis.npm'
+verbose mkdir done: C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\node_modules\___hiredis.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\node_modules\hiredis
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\node_modules\___hiredis.npm\package
+verbose rm'ed C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\node_modules\hiredis
+verbose renamed [ 'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules\\redis\\node_modules\\___hiredis.npm\\package',
+verbose renamed   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules\\redis\\node_modules\\hiredis' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules\\redis\\node_modules\\hiredis\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\node_modules\hiredis\package.json
+verbose loadDefaults hiredis@0.1.14
+info preinstall hiredis@0.1.14
+verbose unsafe-perm in lifecycle true
+silly exec cmd "/c" "make || gmake"
+silly spawning [ 'cmd',
+silly spawning   [ '/c', 'make || gmake' ],
+silly spawning   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules\\redis\\node_modules\\hiredis' ]
+info hiredis@0.1.14 Failed to exec preinstall script
+ERR! error installing hiredis@0.1.14
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\node_modules\hiredis
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\node_modules\hiredis\package.json
+info preuninstall hiredis@0.1.14
+info uninstall hiredis@0.1.14
+verbose unbuild hiredis@0.1.14 [ false,
+verbose unbuild hiredis@0.1.14   'C:\\apache\\expTest\\node_modules',
+verbose unbuild hiredis@0.1.14   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules\\redis\\node_modules' ]
+info postuninstall hiredis@0.1.14
+verbose installOne cb hiredis@0.1.14
+verbose about to build C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis
+ERR! error installing redis@0.7.2
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\node_modules\redis\package.json
+info preuninstall redis@0.7.2
+info uninstall redis@0.7.2
+verbose unbuild redis@0.7.2 [ false,
+verbose unbuild redis@0.7.2   'C:\\apache\\expTest\\node_modules',
+verbose unbuild redis@0.7.2   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules\\socket.io\\node_modules' ]
+info postuninstall redis@0.7.2
+verbose installOne cb redis@0.7.2
+verbose about to build C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io
+ERR! error installing socket.io@0.9.8
+info unbuild C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io
+verbose from cache C:\apache\expTest\node_modules\node-inspector\node_modules\socket.io\package.json
+info preuninstall socket.io@0.9.8
+info uninstall socket.io@0.9.8
+verbose unbuild socket.io@0.9.8 [ false,
+verbose unbuild socket.io@0.9.8   'C:\\apache\\expTest\\node_modules',
+verbose unbuild socket.io@0.9.8   'C:\\apache\\expTest\\node_modules\\node-inspector\\node_modules' ]
+info postuninstall socket.io@0.9.8
+verbose installOne cb socket.io@0.9.8
+verbose about to build C:\apache\expTest\node_modules\node-inspector
+ERR! error installing node-inspector@0.2.0beta3
+info unbuild C:\apache\expTest\node_modules\node-inspector
+verbose from cache C:\apache\expTest\node_modules\node-inspector\package.json
+info preuninstall node-inspector@0.2.0beta3
+info uninstall node-inspector@0.2.0beta3
+verbose unbuild node-inspector@0.2.0beta3 [ true,
+verbose unbuild node-inspector@0.2.0beta3   'C:\\apache\\expTest\\node_modules',
+verbose unbuild node-inspector@0.2.0beta3   'C:\\apache\\expTest\\node_modules' ]
+verbose binRoot [ 'C:\\apache\\expTest\\node_modules\\.bin',
+verbose binRoot   { 'node-inspector': './bin/inspector.js' } ]
+info postuninstall node-inspector@0.2.0beta3
+verbose installOne cb node-inspector@0.2.0beta3
+ERR! hiredis@0.1.14 preinstall: `make || gmake`
+ERR! `cmd "/c" "make || gmake"` failed with 1
+ERR! 
+ERR! Failed at the hiredis@0.1.14 preinstall script.
+ERR! This is most likely a problem with the hiredis package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     make || gmake
+ERR! You can get their info via:
+ERR!     npm owner ls hiredis
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "c:\\Program Files (x86)\\nodejs\\\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-inspector"
+ERR! cwd C:\apache\expTest
+ERR! node -v v0.6.11
+ERR! npm -v 1.1.1
+ERR! code ELIFECYCLE
+ERR! message hiredis@0.1.14 preinstall: `make || gmake`
+ERR! message `cmd "/c" "make || gmake"` failed with 1
+ERR! errno {}
+verbose exit [ 1, true ]

@@ -27,3 +27,7 @@ exports.json = function(req, res){
 	res.write(JSON.stringify(jsonObject))
 	res.end()
 };
+
+exports.twitter = function(req, res){
+  res.render('twitter', { title: 'twitterPage'});
+};
